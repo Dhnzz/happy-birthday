@@ -305,5 +305,5 @@ const animationTimeline = () => {
 // Run fetch and animation in sequence
 fetchData();
 
-var audio = new Audio('../img/penjaga-hati.mp3');
+var audio = new Audio('../img/penjaga-hati.mp3?raw=true');
 audio.play();
